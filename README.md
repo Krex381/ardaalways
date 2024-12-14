@@ -2,9 +2,9 @@
 
 A modern, responsive personal portfolio website featuring a glassmorphism design, particle.js background, and language switching capabilities.
 
-![Portfolio Preview | English](assets/turkish.png)
+![Portfolio Preview | English](github/turkish.png)
 
-![Portfolio Preview | ENGLISH](assets/english.png)
+![Portfolio Preview | ENGLISH](github/english.png)
 
 ## ✨ Features
 
