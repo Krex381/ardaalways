@@ -24,3 +24,7 @@ A modern, responsive personal portfolio website featuring a glassmorphism design
 - Particle.js
 - ScrollReveal.js
 - Font Awesome
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
