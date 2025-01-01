@@ -1,103 +1,64 @@
-<!DOCTYPE html><html><head>
-    <title>| W0tz$hu |</title>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
     <meta charset="UTF-8">
-    <meta name="description" content="| W0tz |">
-    <meta name="keywords" content="W0tz">
-    <meta name="author" content="W0tz">
-    <meta property="og:type" content="site">
-    <meta property="og:title" content="| W0tz |">
-    <meta property="og:description" content="| W0tz |">
-    <meta property="og:url" content="| W0tz |">
-    <meta property="og:image" content="images/profile.jpg">
-    <meta itemprop="name" content="| W0tz |">
-    <meta itemprop="description" content="| W0tz |">
-    <meta itemprop="image" content="assets/icons/profile.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Ardaalways</title>
 
-    <link rel="shortcut icon" href="images/profile.jpg" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/hqbpAaVhma1H.css">
-    <link rel="stylesheet" type="text/css" href="css/p3kkruwfcn2v.css">
-  </head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="./assets/script.js" defer></script>
+</head>
+<body class="min-h-screen bg-black flex items-center justify-center p-4 md:p-8">
 
-  <body>
-    <script type="text/javascript" src="js/Eoulki6gsqny.js"></script>
+<div id="loading" class="fixed inset-0 bg-black z-50 flex items-center justify-center">
+    <div class="loader"></div>
+</div>
 
-    <div id="main">
-      <table class="box">
-        <tbody>
-          <tr>
-            <td><span id="line1" style="white-space: pre;"></span></td>
-          </tr>
-          <tr>
-            <td><span id="line2" style="white-space: pre;"></span></td>
-          </tr>
-          <tr>
-            <td><span id="line3 space" style="white-space: pre;"></span></td>
-          </tr>
-          <tr>
-            <td><span id="line4" style="white-space: pre;"></span></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <button id="langToggle" class="fixed top-4 right-4 lang-toggle bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full transition-all duration-300 cursor-pointer touch-manipulation z-50">
+        <div class="flex items-center justify-center">
+            <i class="fas fa-globe mr-2"></i>
+            <span class="lang-indicator text-white font-medium text-base md:text-lg select-none">TR</span>
+        </div>
+    </button>
 
-    <div class="container" style="display: none;">
-      <h1 class="brand-header">
-        <a>W 0 T Z $ H U</a>
-      </h1>
+    <div id="particles-js" class="absolute inset-0"></div>
 
-      <!-- Social Media Links -->
-      <div class="social-links">
-        <ul>
-          <li>
-            <a href="https://www.instagram.com/wotzshu/" target="_BLANK">
-              <img src="images/instagram.png" alt="Instagram"> Instagram
+    <div class="glass-card relative z-10 p-4 md:p-8 rounded-2xl backdrop-blur-md bg-white/20 shadow-xl w-full max-w-[90%] md:max-w-md mx-auto">
+
+        <div class="profile-picture mb-4 transform transition-transform hover:scale-105">
+            <img src="./assets/profile.jpg" alt="Profil Fotoğrafı" class="w-24 h-24 md:w-32 md:h-32 rounded-full mx-auto border-4 border-white/50">
+        </div>
+
+        <div class="text-center mb-6">
+            <h1 class="text-white text-xl md:text-2xl font-bold mb-2" data-tr="Ardaalways" data-en="Ardaalways">Ardaalways</h1>
+            <p class="text-white/80 text-sm md:text-base" data-tr="Geliştirici - Müzik Sanatçısı" data-en="Developer • Music Artist">Geliştirici - Müzik Sanatçısı</p>
+        </div>
+
+        <div class="social-links flex justify-center gap-4 md:gap-6 mb-6 md:mb-8">
+            <a href="https://www.instagram.com/ardgull" class="social-icon instagram p-3 md:p-4" data-label-tr="Instagram'da Takip Et" data-label-en="Follow on Instagram">
+                <i class="fab fa-instagram text-lg md:text-2xl"></i>
             </a>
-          </li>
-          <li>
-            <a href="https://open.spotify.com/user/31xlo3ycbjk3tv4a2veawzfoae7q" target="_BLANK">
-              <img src="images/spotify.png" alt="Spotify"> Spotify
+            <a href="https://spotify.link/ZhdwlJRDvDb" class="social-icon spotify p-3 md:p-4" data-label-tr="Spotify'da Dinle" data-label-en="Listen on Spotify">
+                <i class="fab fa-spotify text-lg md:text-2xl"></i>
             </a>
-          </li>
-        </ul>
-      </div>
+        </div>
+
+        <div class="spotify-stats text-center text-white p-3 md:p-4">
+            <div class="flex items-center justify-center gap-2 mb-2">
+                <i class="fab fa-spotify text-xl md:text-2xl"></i>
+                <span class="text-base md:text-lg font-semibold" data-tr="Aylık Spotify Dinleyicileri" data-en="Spotify Monthly Listeners">
+                    Aylık Spotify Dinleyicileri
+                </span>
+            </div>
+            <div class="text-2xl md:text-3xl font-bold tracking-wide" data-tr="100 Bin+" data-en="100K+">100 Bin+</div>
+            <div class="text-sm md:text-base text-white/70 mt-1" data-tr="Arda & Metukan" data-en="Arda & Metukan">Arda & Metukan</div>
+        </div>
     </div>
-
-    <div class="marquee-container" style="visibility: hidden;">
-      <pre>|<div id="marquee"></div>|</pre>
-    </div>
-
-    <div class="background" style="display: none;">
-      <div id="pattern"></div>
-
-      <audio id="audio" loop="">
-        <source src="media/video.mp4" type="audio/mp4">
-        <script>
-          const audio = document.getElementById("audio");
-          app.audioElement = audio;
-          app.audioElement.volume = 0;
-        </script>
-      </audio>
-
-      <video id="background" loop="">
-        <source src="media/video.mp4" type="video/mp4">
-        <script>
-          const video = document.getElementById("background");
-          app.videoElement = video;
-          app.videoElement.volume = 0;
-        </script>
-      </video>
-    </div>
-
-    <div class="top-right">
-      <i><a class="skip">skip intro</a></i>
-    </div>
-
-    <script type="text/javascript" src="js/qMLYFklZzPKW.js"></script>
-    <script type="text/javascript" src="js/7WdjMiZMondK.js"></script>
-    <script type="text/javascript" src="js/jN94Z8aQdlvS.js"></script>
-    <script type="text/javascript" src="js/ywwiF5wQgSlb.js"></script>
-    <script type="text/javascript" src="js/j9WAL4hSGHGG.js"></script>
-  
-
-</body></html>
+</body>
+</html>
